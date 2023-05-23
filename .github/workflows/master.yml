@@ -6,7 +6,6 @@ name: .NET
 on:
   pull_request:
     branches: [ "main" ]
-    paths: ["*server/MvcCoreApi/*"]
 
 jobs:
   build:
