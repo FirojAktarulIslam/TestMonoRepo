@@ -20,6 +20,7 @@ namespace MvcCoreWebApp.Controllers
 
         public IActionResult Privacy()
         {
+            //test comment
             return View();
         }
 
