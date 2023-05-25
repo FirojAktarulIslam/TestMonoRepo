@@ -1,5 +1,6 @@
 namespace MvcCoreWebApp.Models
 {
+//ErrorViewModel
     public class ErrorViewModel
     {
         public string? RequestId { get; set; }
