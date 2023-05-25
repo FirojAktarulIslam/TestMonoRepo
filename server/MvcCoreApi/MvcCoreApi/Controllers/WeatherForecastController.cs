@@ -15,6 +15,7 @@ namespace MvcCoreApi.Controllers
 
         public WeatherForecastController(ILogger<WeatherForecastController> logger)
         {
+        //test comments
             _logger = logger;
         }
 
