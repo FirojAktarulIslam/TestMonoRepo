@@ -10,7 +10,7 @@ pool:
   vmImage: 'windows-latest'
 
 variables:
-  solution: $(solution.path)
+  solution: 'server/MvcCoreApi/MvcCoreApi.sln'
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
 
