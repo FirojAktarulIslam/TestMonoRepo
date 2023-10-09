@@ -11,6 +11,7 @@ namespace MvcCoreWebApp.Controllers
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
+            //some comment
         }
 
         public IActionResult Index()
