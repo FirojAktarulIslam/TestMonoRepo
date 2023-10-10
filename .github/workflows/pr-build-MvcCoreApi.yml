@@ -5,7 +5,10 @@
 
 trigger:
 - main
-
+  paths:
+    include:
+    - server/MvcCoreApi*
+    
 pool:
   vmImage: 'windows-latest'
 
