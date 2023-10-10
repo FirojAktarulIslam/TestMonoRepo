@@ -5,6 +5,9 @@
 
 trigger:
 - main
+  paths:
+    include:
+    - server/MvcCoreWebApp*
 
 pool:
   vmImage: 'windows-latest'
