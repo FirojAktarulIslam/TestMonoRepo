@@ -16,6 +16,7 @@ namespace MvcCoreApi.Controllers
         public WeatherForecastController(ILogger<WeatherForecastController> logger)
         {
             _logger = logger;
+            //test 100
         }
 
         [HttpGet(Name = "GetWeatherForecast")]
